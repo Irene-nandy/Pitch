@@ -1,10 +1,10 @@
-<!-- # Project Author
+Project Author
 IRENE KASIVA.
 ## Description
-In life, you only have 60 seconds to impress someone. 1 minute can make or break you. How do we make sure that you use your 1 minute to actually say something meaningful?The task is to create an application that allows users to use that one minute wisely
+In life, you only have 60 seconds to impress someone. 1 minute can make or break you. How do we make sure that you use your 1 minute to actually say something meaningful?The task is to create an application that allows users to use that one minute wisely -->
 
-## BDD
-With the application, a user will be able to:
+## Behaviour.
+With this application, a user will be able to:
 As a user, I would like to see the pitches other people have posted.
 As a user, I would like to vote on the pitch they liked and give it a downvote or upvote.
 As a user, I would like to be signed in for me to leave a comment
@@ -43,4 +43,4 @@ view the different categories.
 Contact ME: irenekasiva75@gmail.com
 
 ## License MIT License
-Copyright (c) 2020 September. -->
+Copyright (c) 2020 September. 
