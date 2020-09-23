@@ -15,20 +15,19 @@ This is an application that allows users to create an account then publish and r
 * As a user, I would like to view the different categories.
 category
 ## Expected Inputs
-Display pitches
-Click on the upvote or downvote
-Click on sign up
-Sign in
-Textfield area
-Edit the bio
+* Display pitches
+* Click on the upvote or downvote
+* Click on sign up
+* Sign in
+
 ## Expected Outputs
-pitches other people have posted.
-downvote or upvote.
-leave a comment
-receive a welcoming email once I sign up
-comment on the different pitches and leave feedback
-submit a pitch in any category
-view the different categories.
+* Pitches other people have posted.
+* downvote or upvote.
+* leave your comment
+* receive a welcoming email once I sign up
+* comment on the different pitches and leave feedback
+* submit a pitch in any category
+* view the different categories.
 ## Technologies Used
 * Python3.6
 * Boostrap Flask 
