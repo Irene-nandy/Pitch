@@ -4,7 +4,7 @@ class Config:
 
     
     SECRET_KEY = '12345'
-    #SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://moringa:Access@localhost/pitch'
+    #
     SQLALCHEMY_TRACK_MODIFICATIONS = False
 
     UPLOADED_PHOTOS_DEST ='app/static/photos'
@@ -23,6 +23,7 @@ class ProdConfig(Config):
 
 
 class DevConfig(Config):
+    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://moringa:Access@localhost/pitch'
     DEBUG = True
 
 config_options = {
