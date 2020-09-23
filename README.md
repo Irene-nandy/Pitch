@@ -1,7 +1,7 @@
 Project Author
 IRENE KASIVA.
 ## Description
-In life, you only have 60 seconds to impress someone. 1 minute can make or break you. How do we make sure that you use your 1 minute to actually say something meaningful?The task is to create an application that allows users to use that one minute wisely..
+This is an application that allows users to create an account then publish and read pitches created by other users. Users can also comment on pitches if they are logged in.
 
 ## Behaviour.
 * With this application, a user will be able to:
