@@ -36,7 +36,7 @@ class User(UserMixin,db.Model):
         return f'User {self.username}'
 
 class Pitch(db.Model):
-    __tablename__ = 'pitches'
+    __tablename__ = 'pitch'
 
     id = db.Column(db.Integer,primary_key = True)
     title =  db.Column(db.String(255)) 
