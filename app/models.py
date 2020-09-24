@@ -59,7 +59,7 @@ class Comment(db.Model):
     id = db.Column(db.Integer,primary_key = True)
     body = db.Column(db.String(255))
     user_id = db.Column(db.Integer,db.ForeignKey('users.id'))
-    pitch_id = db.Column(db.Integer,db.ForeignKey('pitches.id'))
+    pitch_id = db.Column(db.Integer,db.ForeignKey('pitch.id'))
             
     published_at = db.Column(db.DateTime, default = datetime.utcnow)  
 
